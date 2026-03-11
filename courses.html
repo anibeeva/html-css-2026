@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Курсове</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="Att/it-2-logo-png-transparent.png" alt="Лого" width="100" height="100">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Начало</a></li>
@@ -17,36 +21,34 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Нашите курсове</h1>
+    <main class="container">
+        <h1 class="centered-text">Нашите курсове</h1>
 
-        <section> <img src = "Att/software-testing.jpg" alt = "Софтуерно тестване"width = "300"> 
-            <h2>Софтуерно тестване</h2> 
-            <p>Стартира на: 00.00.2026</p> 
-            <p>Продължителност: 2 месеца</p> 
-            <p>За начинаещи</p> 
-        </section>
+        <div class="courses-container">
+            <section class="course-card"> 
+                <img src="Att/software-testing.jpg" alt="Софтуерно тестване" width="300"> 
+                <h2>Софтуерно тестване</h2> 
+                <p><strong>Стартира на:</strong> 00.00.2026</p> 
+                <p><strong>Продължителност:</strong> 2 месеца</p> 
+                <p><em>За начинаещи</em></p> 
+            </section>
 
-         <break> ------------------------ </break>
+            <section class="course-card">
+                <img src="Att/0_K1jXInoNSNWXqpg-.jpg" alt="Web програмиране" width="300">
+                <h2>Web програмиране с HTML, CSS и JS</h2> 
+                <p><strong>Стартира на:</strong> 00.00.2026</p> 
+                <p><strong>Продължителност:</strong> 2 месеца</p> 
+                <p><em>За начинаещи</em></p> 
+            </section>
 
-        <section>
-            <img src="Att/0_K1jXInoNSNWXqpg-.jpg" alt="Web програмиране" width="300">
-            <h2>Web програмиране с HTML, CSS и JS</h2> 
-            <p>Стартира на: 00.00.2026</p> 
-            <p>Продължителност: 2 месеца</p> 
-            <p>За начинаещи</p> 
-        </section>
-
-        <break> ------------------------ </break>
-
-        <section>
-            <img src="Att/hqdefault.jpg" alt="ArcGIS"width="300">
-            <h2>ArcGIS JS API</h2> 
-            <p>Стартира на: 00.00.2026</p> 
-            <p>Продължителност: 4 месеца</p> 
-            <p>За напреднали</p> 
-        </section>
+            <section class="course-card">
+                <img src="Att/hqdefault.jpg" alt="ArcGIS" width="300">
+                <h2>ArcGIS JS API</h2> 
+                <p><strong>Стартира на:</strong> 00.00.2026</p> 
+                <p><strong>Продължителност:</strong> 4 месеца</p> 
+                <p><em>За напреднали</em></p> 
+            </section>
+        </div>
     </main>
-    
 </body>
 </html>
